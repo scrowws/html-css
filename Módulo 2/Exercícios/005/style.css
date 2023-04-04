@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'space';
+    src: url(fonts/Space\ Crusaders.otf) format(opentype); src: url(fonts/Space\ Crusaders.ttf) format(truetype);
+}
+
+*{
+    font-family: sans-serif;
+}
+
+a{
+    color: red;
+    text-decoration: none; /*Text decoration é para alterar o sublinhado do texto*/
+    font-weight: bold;
+}
+
+a:visited{
+    color: darkblue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
+
+a:active{
+    color: yellow;
+}
+a::before{
+    content: '⇒';
+}
+
+a::after{
+    content: '⇐';
+}

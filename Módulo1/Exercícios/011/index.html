@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Imangens Dinamicas</title>
+</head>
+<body> 
+    <h1>Imagens dinamica</h1>
+    <p>A imagem se adpta ao dispositivo que você está utilizando para brir o site</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="G">
+    </picture>
+
+    <h1>Colocando áudio no site para ser reroduzido</h1>
+    <p>Reproduzindo audio em html5</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Za Warudo Sound Effect.mp3" type="audio/mp3">
+        <source src="midia/Za Warudo Sound Effect.wav" type="audio/wav">
+        <source src="midia/Za Warudo Sound Effect.ogg" type="audio/ogg">
+        <p>Não foi possível carregar o audio</p>
+    </audio>
+    <!--Compativel com audios MP3 WAV e OGG -->
+
+    <h1>Inserindo video hospeado no proprio site</h1>
+    <p>Este video esta hospeado no meu servidor</p>
+    <video controls width="500" poster="img/purple walpaper.jpg">
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/video.m4v" type="video/mp4">
+        <source src="midia/video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com os videos</p>
+    </video>
+    <h1>Incorporando video no site</h1>
+    <p>Este video está hospedado em um site externo</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/T5w4dv_ag0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'space';
+    src: url(fonts/Space\ Crusaders.otf) format(opentype); src: url(fonts/Space\ Crusaders.ttf) format(truetype);
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: aquamarine;
+    padding: 3px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.322);
+    border-radius: 0px 0px 30px 30px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+article{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.322);
+}
+
+article > aside{
+    background-color: rgb(95, 192, 160);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}

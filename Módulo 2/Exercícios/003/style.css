@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Space';
+    src: url(fonts/Space\ Crusaders.otf) format(opentype); src: url(fonts/Space\ Crusaders.ttf) format(truetype);
+}
+
+*{
+    background-color: rgb(168, 168, 168);
+}
+
+h1{
+    color: blueviolet;
+}
+
+#main{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+h2{
+    color: aqua;
+}
+
+p{
+
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Space';
+    src: url(fonts/Space\ Crusaders.otf) format(opentype); src: url(fonts/Space\ Crusaders.ttf) format(truetype);
+}
+
+div{
+    display: inline-block;
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: white;
+}
+
+div:hover{
+    background-color: aqua;
+}

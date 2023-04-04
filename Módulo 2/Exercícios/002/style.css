@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: space;
+    src: url(fonts/Space\ Crusaders.ttf) format(truetype), url(fonts/Space\ Crusaders.otf) format(opentype);
+}
+
+*{
+    font-family: 'open sans', sans-serif;
+    font-size: 1.1em;
+}
+
+body{
+    background-image: linear-gradient(to right, #8936FF, #553CE8);
+}
+
+main{
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    width: 95%;
+    box-shadow: 5px 5px 15px #280eaba2;
+}
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+    color: #280EAB;
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.8em;
+    text-align: center;
+    color: #78149E;
+}
+
+h3{
+    font-family: 'space';
+    font-size: 1.8em;
+    text-align: center;
+    color: #78149E;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
