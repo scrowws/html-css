@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/wallpaper002.jpg);
+    background-size: 1000px 500px;
+    background-repeat: no-repeat; /*Também existem outros tipos de repetição que podem ser exploradas, como repeat(padrão), repat-y, repet-x, entre outros*/
+}
