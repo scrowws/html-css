@@ -1,15 +1,23 @@
 body{
     height: 100vh;
+    /*
     background-color: black;
     background-image: url(imagens/wallpaper002.jpg);
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; /*Também tem a possibilidade de usar o contain, porém ele pode gerar áreas sem a imagem*/
+    background-size: cover; Também tem a possibilidade de usar o contain, porém ele pode gerar áreas sem a imagem
+    background-attachment: fixed; */
+    /* Shorthand - Background
+        color > image > position > repeat > size > atachment  (size) costuma não funcionar dentro da shorthand
+    */
+
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 main{
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border-radius: 15px;
